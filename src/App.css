@@ -78,3 +78,16 @@ a{
 }
 
 /* End Header Part*/
+/*Footer part*/
+footer{
+  background-color: var(--color-232f3e);
+}
+footer:not(:first-child){
+  border-top: 1px solid var(--color-3b4149);
+}
+footer .input-group span{
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+}
+/*Footer part end*/
