@@ -80,16 +80,23 @@ export const Header = () => {
                 <div>
                 <div className="dropdown">
                   <button 
-                  className="btn btn-secondary dropdown-toggle bg-transparent border-0" 
+                  className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center" 
                   type="button" 
                   data-bs-toggle="dropdown" 
                   aria-expanded="false">
-                    Show Categories
+                    <img src="/images/menu.svg" alt="" />
+                    <span className='me-5 d-inline-block'>Show Categories</span>
                   </button>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></ li>
+                  <ul className="dropdown-menu ">
+                    <li>
+                      <Link className="dropdown-item text-white" to="">Action</Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item text-white" to="">Action</Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item text-white" to="">Action</Link>
+                    </ li>
                   </ul>
                 </div>
                 </div>
